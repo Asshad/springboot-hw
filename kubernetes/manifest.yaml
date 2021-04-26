@@ -42,7 +42,7 @@ metadata:
   name: hello-ingress
 spec:
   rules:
-  - hosts: hello-spring.boostorium.com 
+  - host: hello-spring.boostorium.com 
     http:
       paths:
       - path: /hello
