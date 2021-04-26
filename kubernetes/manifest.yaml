@@ -42,7 +42,8 @@ metadata:
   name: hello-ingress
 spec:
   rules:
-  - http:
+  - hosts: hello-spring.boostorium.com 
+    http:
       paths:
       - path: /hello
         backend:
